@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Orders">
+            <menu>
+                <item
+                    android:id="@+id/nav_currentorder"
+                    android:icon="@drawable/currentorder"
+                    android:title="Current Order" />
+
+                <item
+                    android:id="@+id/nav_addorder"
+                    android:icon="@drawable/addorder"
+                    android:title="Order a Courier" />
+
+                <item
+                    android:id="@+id/nav_orderhistory"
+                    android:icon="@drawable/orderhistory"
+                    android:title="Order History" />
+
+                <item
+                    android:id="@+id/nav_pricelist"
+                    android:icon="@drawable/pricelist"
+                    android:title="Pricelist" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Settings">
+            <menu>
+                <item
+                    android:id="@+id/nav_myprofile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="My profile" />
+
+                <item
+                    android:id="@+id/nav_editprofile"
+                    android:icon="@drawable/editprofile"
+                    android:title="Edit Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    </group>
+</menu>
